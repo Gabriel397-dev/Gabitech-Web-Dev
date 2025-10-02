@@ -25,30 +25,37 @@ ul {
     padding-right: 20px;
     color: #ffffff;
 }
-
+.highlight{   
+    color: #e8491d ;
+    font-weight: bold;
+}
 .dark {
     padding: 15px;
-    background: #35424a;
-    color: #ffffff;
+    background:  #0056b3;
+    color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: background 0.5s ease;
+    transition: background-color 0.5s ease;
 }
 /* Hover color cycle */
 .dark:hover{
     animation: colorCycle 3s linear infinite;
 }
 @keyframes colorCycle{
-    0% { background-color: #35424a; }
-    33% {  background-color:#e91e63; }
-    66% {  background-color:#2196f3; }
-   100% {background-color:#4caf50; } 
+    33% {
+        background-color:  #e8491d;
+    }
+    66% {
+        background-color: #0056b3;
+    }
+    100% {
+        background-color: #4caf50;
+    }
 }
-
 
 /* Header */
 header {
-    background-color: #35424a;
+    background-color: #0056b3;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
@@ -116,18 +123,15 @@ header a:hover {
 #newsletter {
     padding: 15px;
     color: #ffffff;
-    background: #35424a
+    background: #39354a
 }
-
 #newsletter h1 {
     float: left;
 }
-
 #newsletter form {
     float: right;
     margin-top: 15px;
 }
-
 #newsletter input[type="email"] {
     padding: 4px;
     height: 25px;
@@ -262,4 +266,5 @@ footer{
     to{
         opacity: 1;
     }
+
 }
